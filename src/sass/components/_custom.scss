@@ -1,0 +1,17 @@
+// .blur {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   height: 100vh;
+//   width: 100vw;
+//   background-color: $bg-blur;
+// }
+
+
+
+@for $value  from 1 through 1{
+  .blur-#{$value} {
+    background-attachment: fixed;
+  }
+}
+

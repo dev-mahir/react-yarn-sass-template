@@ -1,0 +1,62 @@
+header {
+  @include flex-between;
+  padding: 15px 50px;
+  .left {
+    a {
+      img {
+        width: 120px;
+        object-fit: cover;
+      }
+    }
+  }
+  .right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    .search {
+      cursor: pointer;
+      i {
+        color: $black;
+        font-weight: 700;
+        font-size: 18px;
+      }
+    }
+    .menu-wraper {
+      button {
+        i {
+          color: $black;
+          font-weight: 700;
+          font-size: 20px;
+        }
+      }
+
+      .menu-box {
+        position: fixed;
+        width: 250px;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        background-color: white;
+        &.show {
+          opacity: 1;
+          visibility: visible;
+          transform: translate(0, 0);
+        }
+        .close {
+          button {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            color: $black;
+
+            font-weight: 500;
+            i {
+              font-size: 22px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

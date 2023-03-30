@@ -1,0 +1,17 @@
+
+
+
+@for $value from 1 through 12 {
+  $width: percentage(1 / $value);
+  .grid-cols-#{$value} {
+    grid-template-columns: repeat($value, 1fr);
+  }
+}
+
+
+.grid {
+  display: grid;
+}
+.flex {
+  display: grid;
+}

@@ -1,0 +1,37 @@
+.search-wraper {
+  opacity: 0;
+  transition: 0.3s all;
+  visibility: hidden;
+  &.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  .search-box {
+    width: 100%;
+    background-color: white;
+    height: 150px;
+    text-align: center;
+    padding: 50px 0;
+    position: relative;
+    transform: translate(0, -20px);
+    transition: 0.3s all;
+    &.show {
+      transform: translate(0, 0px);
+    }
+    input {
+      border: none;
+      outline: none;
+      font-size: 20px;
+      text-align: center;
+    }
+    button {
+      position: absolute;
+      right: 30px;
+      top: 20px;
+      i {
+        font-size: 25px;
+        font-weight: 500;
+      }
+    }
+  }
+}

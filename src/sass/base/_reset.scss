@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: $font-primary;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-secondary;
+}
+
+
+
+h2{
+  font-size: $h2-fs;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+
+p,
+span {
+  font-family: $font-primary;
+}
