@@ -5,18 +5,12 @@
 }
 
 body{
-  font-family: $font-primary;
+  font-family: var(--roboto);
   font-size: 16px;
 }
 
 a {
   text-decoration: none;
-}
-
-button {
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
 }
 
 h1,
@@ -25,10 +19,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $font-secondary;
+  font-family: var(--roboto);
 }
-
-
 
 h2{
   font-size: $h2-fs;
@@ -36,8 +28,15 @@ h2{
   font-weight: 700;
 }
 
-
 p,
 span {
-  font-family: $font-primary;
+  font-family: var(--roboto);
+}
+
+
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
