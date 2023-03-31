@@ -2,13 +2,14 @@
   "name": "fresh-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://devmahir.github.io/dddd",
+  "homepage": "https://dev-mahir.github.io/react-yarn-sass-template",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
     "bootstrap": "^5.2.3",
     "boxicons": "^2.1.4",
+    "gh-pages": "^5.0.0",
     "puresoulcss": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -24,7 +25,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build"
-
   },
   "eslintConfig": {
     "extends": [
